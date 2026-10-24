@@ -17,7 +17,7 @@ I worked as an architect for 13 years, reading planning documents and building r
 ## Pipeline
 
 ```mermaid
-flowchart LR
+flowchart TD
     A[Address] --> B[Address & parcel lookup<br/>official government services]
     B --> C[Public data<br/>BBR · Datafordeler · plandata.dk]
     C --> D[Plan retrieval<br/>local plan / municipal framework / BR18 fallback]
